@@ -1,5 +1,5 @@
-import Index from '../public/componants'
-import Password from '../public/componants/password'
+import Email from './Email'
+import Password from './password'
 import './App.css'
 
 function App() {
@@ -7,7 +7,8 @@ function App() {
 
   return (
     <div className='app'> 
-      <Index/>
+        <Email/>
+        <Password/>
     </div>
      
   )

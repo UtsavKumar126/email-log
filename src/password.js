@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './password.css'
+
 function Password(){
     const[passWord , setPassWord] = useState('');
     const [isPasswordValid, setIsPasswordValid] = useState(false);

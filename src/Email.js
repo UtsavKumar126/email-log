@@ -17,7 +17,6 @@ function Email (){
      
 
     return(
-        <>
             <div>
                 <label htmlFor="email">Email</label>
                 <br />
@@ -30,9 +29,6 @@ function Email (){
                  />
                 {!isEmailValid && <p style={{ color: 'red' , fontSize:'15px' }}>Enter a valid email address</p>}
             </div>
-
-            
-        </>
     )
 }
 
